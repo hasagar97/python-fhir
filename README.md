@@ -9,10 +9,10 @@ Proposes a `fhir` namespace and for Python FHIR implementations and includes an 
 It's best to install using [``virtualenv``](https://virtualenv.pypa.io/en/stable/):
 
 ```
-$ virtualenv fhir-client
-$ cd fhir-client && . ./bin/activate
-$ (fhir-client) git clone https://github.com/plangthorne/python-fhir
-$ (fhir-client) pip install -e ./python-fhir
+virtualenv fhir-client
+cd fhir-client && . ./bin/activate
+git clone https://github.com/hasagar97/python-fhir
+pip install -e ./python-fhir
 ```
 
 ### Usage
